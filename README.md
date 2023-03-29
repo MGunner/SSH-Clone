@@ -45,7 +45,7 @@ USDT ERC20 Address :
 دستور زیر را در ترمینال خود وارد کرده و یوزر و پسورد ادمین را وارد کنید .
 
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/MGunner/SSH-Clone/master/install.sh --ipv4)
 ````
 
 جهت آپدیت پنل نیز همان دستور بالا را وارد کرده ( یوزر و پسورد ادمین نیاز نیست - یوزر ها پاک نمیشوند ) 
@@ -60,7 +60,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/ma
 
 
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/MGunner/SSH-Clone/master/ssl.sh --ipv4)
 ````
 
 
