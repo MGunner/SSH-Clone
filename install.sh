@@ -112,7 +112,7 @@ systemctl restart mariadb &
 wait
 systemctl enable mariadb &
 wait
-link=$(sudo curl -Ls "https://api.github.com/repos/HamedAp/Ssh-User-management/releases/latest" | grep '"browser_download_url":' | sed -E 's/.*"([^"]+)".*/\1/')
+link=$(sudo curl -Ls "https://api.github.com/repos/MGunner/SSH-Clone/releases/latest" | grep '"browser_download_url":' | sed -E 's/.*"([^"]+)".*/\1/')
 sudo wget -O /var/www/html/update.zip $link
 sudo unzip -o /var/www/html/update.zip -d /var/www/html/ &
 wait
